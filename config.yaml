@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: Osaka-x86 # unique identifier
-    name: myoil.tk
+    name: Osaka-x86
     description: 'Oracle' # default=empty
     url: 'https://myoil.tk/' # URL to fetch
     method: GET # default=GET
@@ -25,17 +25,17 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: Osaka-ARM1
-    name: luckiestone.tk
+    name: Osaka-ARM1
     description: 'Oracle'
     url: 'https://luckiestone.tk'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: Osaka-ARM2
-    name: osaka-arm2.logy.top
+    name: Osaka-ARM2
     description: 'Oracle'
     url: 'https://osaka-arm2.logy.top'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
