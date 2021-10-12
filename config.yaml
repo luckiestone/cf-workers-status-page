@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://o.logy.top' # used for Slack messages
+  url: 'https://o.***.top' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -18,7 +18,7 @@ monitors:
   - id: Osaka-x86 # unique identifier
     name: Osaka-x86
     description: 'Oracle' # default=empty
-    url: 'http://myoil.tk/' # URL to fetch
+    url: 'http://m***l.tk/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -27,7 +27,7 @@ monitors:
   - id: Osaka-ARM1
     name: Osaka-ARM1
     description: 'Oracle'
-    url: 'https://luckiestone.tk'
+    url: 'https://luc***.tk'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
@@ -35,7 +35,7 @@ monitors:
   - id: Osaka-ARM2
     name: Osaka-ARM2
     description: 'Oracle'
-    url: 'https://osaka-arm2.logy.top'
+    url: 'https://osaka***.top'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
