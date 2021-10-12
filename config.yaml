@@ -18,7 +18,7 @@ monitors:
   - id: Osaka-x86 # unique identifier
     name: Osaka-x86
     description: 'Oracle' # default=empty
-    url: 'https://myoil.tk/' # URL to fetch
+    url: 'http://myoil.tk/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
